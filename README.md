@@ -21,7 +21,7 @@ The following python packages are required by the class.
 * ctypes
 * time 
 
-##Methods
+## Methods
   Create the object. The object is opened with `serial.Serial(...)`.
   
     * sm5 = LandNSM5()
@@ -65,7 +65,7 @@ The following python packages are required by the class.
 
 Futher functions can be easily implemented from the manual following the structure of the class fuctions. 
 
-##Properties
+## Properties
 
 * verbose - The level of program messages displayed (0 or 1). 
 * timeOut - Timout (in sec) of the serial connection. 
@@ -73,7 +73,7 @@ Futher functions can be easily implemented from the manual following the structu
 * maxLoops - Maximal number of read - write loop tries before abort. 
 
 
-##Example session
+## Example session
 
 ```python
 In [1]: import LandNSM5_1
